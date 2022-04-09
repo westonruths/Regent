@@ -1,0 +1,167 @@
+{
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 38,
+  "bbox_right": 56,
+  "bbox_top": 21,
+  "bbox_bottom": 32,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 96,
+  "height": 64,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"bed79faf-21eb-4d0d-9df4-2a2228c6a12f","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bed79faf-21eb-4d0d-9df4-2a2228c6a12f","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"bed79faf-21eb-4d0d-9df4-2a2228c6a12f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"62fbe4bb-a06e-41bc-acdd-a49ead82fe12","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"62fbe4bb-a06e-41bc-acdd-a49ead82fe12","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"62fbe4bb-a06e-41bc-acdd-a49ead82fe12","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28615f47-5b21-4305-ad64-42d7c85332b9","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28615f47-5b21-4305-ad64-42d7c85332b9","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"28615f47-5b21-4305-ad64-42d7c85332b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e4d20f69-83f5-4d51-a3fe-ee4ad1773b13","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e4d20f69-83f5-4d51-a3fe-ee4ad1773b13","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"e4d20f69-83f5-4d51-a3fe-ee4ad1773b13","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5776fdca-2e3d-491e-913f-a241ac049c8e","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5776fdca-2e3d-491e-913f-a241ac049c8e","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"5776fdca-2e3d-491e-913f-a241ac049c8e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"578a3358-32be-4632-ac42-ef3acb8c15c8","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"578a3358-32be-4632-ac42-ef3acb8c15c8","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"578a3358-32be-4632-ac42-ef3acb8c15c8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"03a0a655-a92f-42c9-84da-c433dd7341c5","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"03a0a655-a92f-42c9-84da-c433dd7341c5","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"03a0a655-a92f-42c9-84da-c433dd7341c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"74e4bec7-ef21-4ba1-b893-7331169ed7ff","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"74e4bec7-ef21-4ba1-b893-7331169ed7ff","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"74e4bec7-ef21-4ba1-b893-7331169ed7ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f299f192-8f0c-4f9a-8abb-e63ba018ae8a","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f299f192-8f0c-4f9a-8abb-e63ba018ae8a","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"f299f192-8f0c-4f9a-8abb-e63ba018ae8a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"972c5fe7-ea6f-455e-af92-d042450be233","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"972c5fe7-ea6f-455e-af92-d042450be233","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"972c5fe7-ea6f-455e-af92-d042450be233","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e63dd61-e601-4c0f-862f-aa76f4309bea","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e63dd61-e601-4c0f-862f-aa76f4309bea","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"5e63dd61-e601-4c0f-862f-aa76f4309bea","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5ef2175c-fe89-4545-bc7f-665d40d6b114","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5ef2175c-fe89-4545-bc7f-665d40d6b114","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"5ef2175c-fe89-4545-bc7f-665d40d6b114","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bc4cb72a-a6dc-43c5-a084-42ea8bd85453","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bc4cb72a-a6dc-43c5-a084-42ea8bd85453","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"bc4cb72a-a6dc-43c5-a084-42ea8bd85453","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4c7df41f-6e9f-400f-b669-08b0be5734dd","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4c7df41f-6e9f-400f-b669-08b0be5734dd","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"4c7df41f-6e9f-400f-b669-08b0be5734dd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9d813bed-9385-41d2-86eb-45b282a8d086","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9d813bed-9385-41d2-86eb-45b282a8d086","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"9d813bed-9385-41d2-86eb-45b282a8d086","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"197f8e73-23b4-4bc4-982d-2b6525bdda76","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"197f8e73-23b4-4bc4-982d-2b6525bdda76","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"197f8e73-23b4-4bc4-982d-2b6525bdda76","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cde6b5a3-3984-485f-ab89-63cceb4b9bfd","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cde6b5a3-3984-485f-ab89-63cceb4b9bfd","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"cde6b5a3-3984-485f-ab89-63cceb4b9bfd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"68a22896-249a-40f5-b0bb-fb50c88bde79","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"68a22896-249a-40f5-b0bb-fb50c88bde79","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"68a22896-249a-40f5-b0bb-fb50c88bde79","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bbcc5bea-60e4-451b-80b0-392b2234b36c","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bbcc5bea-60e4-451b-80b0-392b2234b36c","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"bbcc5bea-60e4-451b-80b0-392b2234b36c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c29ca94f-32f8-4dee-9a40-3527f994a098","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c29ca94f-32f8-4dee-9a40-3527f994a098","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"c29ca94f-32f8-4dee-9a40-3527f994a098","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2aa50d4f-e849-40c9-b389-381560f16c57","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2aa50d4f-e849-40c9-b389-381560f16c57","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"2aa50d4f-e849-40c9-b389-381560f16c57","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c286c8a7-e008-423f-b39b-d6cc623d38e1","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c286c8a7-e008-423f-b39b-d6cc623d38e1","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"c286c8a7-e008-423f-b39b-d6cc623d38e1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"80abecdd-b1b3-44a1-92e7-444c15e3875f","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"80abecdd-b1b3-44a1-92e7-444c15e3875f","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"LayerId":{"name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","name":"80abecdd-b1b3-44a1-92e7-444c15e3875f","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 30.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 23.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e9aded60-702d-4b9e-bac4-5fcc7f25b1ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bed79faf-21eb-4d0d-9df4-2a2228c6a12f","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3cb985cc-7ecb-443b-aa44-2a5c55ac38ed","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"62fbe4bb-a06e-41bc-acdd-a49ead82fe12","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77feae6e-a193-4dcb-9923-db673b4a3651","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28615f47-5b21-4305-ad64-42d7c85332b9","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1c3dc7ec-4dc9-4997-bf55-4050aca4d017","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4d20f69-83f5-4d51-a3fe-ee4ad1773b13","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9aeb62e7-4ced-48d6-a74d-698474af042e","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5776fdca-2e3d-491e-913f-a241ac049c8e","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d540520d-5af1-4d93-8cce-58c640b3ab06","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"578a3358-32be-4632-ac42-ef3acb8c15c8","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"09a3cc92-808b-41ee-ae47-1141acd63542","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03a0a655-a92f-42c9-84da-c433dd7341c5","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dafbb3ab-97e7-48eb-87d2-b0daa28ee1ce","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74e4bec7-ef21-4ba1-b893-7331169ed7ff","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7319ac11-cd9f-4dd4-9543-6a9bd63143ff","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f299f192-8f0c-4f9a-8abb-e63ba018ae8a","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77fb4d0f-fee0-4206-98ab-c319462c99cf","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"972c5fe7-ea6f-455e-af92-d042450be233","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0b0b20d8-64bd-41d7-ad38-f2cdc06391a6","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e63dd61-e601-4c0f-862f-aa76f4309bea","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a0546e9d-9f7f-4658-8b0d-c2f2f2d47513","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5ef2175c-fe89-4545-bc7f-665d40d6b114","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"70493cc5-911a-4bd4-b9d0-8e860fbf81d5","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc4cb72a-a6dc-43c5-a084-42ea8bd85453","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"904f3566-943f-4d8e-9a67-95829ea05e02","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c7df41f-6e9f-400f-b669-08b0be5734dd","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3328a100-0218-4b6e-bc1d-e976761db875","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d813bed-9385-41d2-86eb-45b282a8d086","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"361a1bdf-31da-4b5b-b047-c49405607840","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"197f8e73-23b4-4bc4-982d-2b6525bdda76","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a54f9a35-8afa-46cc-bb8b-e2b0cc3132d8","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cde6b5a3-3984-485f-ab89-63cceb4b9bfd","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b3483b42-d80f-49e4-a895-0dfcc53320c4","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68a22896-249a-40f5-b0bb-fb50c88bde79","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"93aba295-bda3-4f70-8b6b-b72bb7362d44","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbcc5bea-60e4-451b-80b0-392b2234b36c","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e1a5fad5-3eae-47e6-ad45-dad79c06c44b","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c29ca94f-32f8-4dee-9a40-3527f994a098","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2170f70e-f7b1-446d-bab0-09ecb2559a12","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2aa50d4f-e849-40c9-b389-381560f16c57","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce47741a-0e1f-4743-87c0-d38edbd50986","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c286c8a7-e008-423f-b39b-d6cc623d38e1","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ed224a32-3a5e-4ba3-92e8-7a4c12d8a4f5","Key":22.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80abecdd-b1b3-44a1-92e7-444c15e3875f","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 48,
+    "yorigin": 32,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spikeyhair_hammering","path":"sprites/spikeyhair_hammering/spikeyhair_hammering.yy",},
+    "resourceVersion": "1.4",
+    "name": "spikeyhair_hammering",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6ec2fe1c-70f8-4d59-8bd1-787203c29049","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "hammering",
+    "path": "folders/Sprites/hair/hammering.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spikeyhair_hammering",
+  "tags": [],
+  "resourceType": "GMSprite",
+}
