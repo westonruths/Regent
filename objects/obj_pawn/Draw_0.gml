@@ -41,9 +41,9 @@ var ch = round((hp / hp_max) * 100);
 //var ce = (char_energy / char_energy_max) * 100;
 
 if (hp < hp_max) {
-	draw_healthbar(x-7,y+23, x+12, y+25, ch, c_black, c_red, c_red, 0, true, true)
-	//draw_healthbar(x-10,y+13, x+10, y+15, cf, c_black, c_green, c_green, 0, true, true)
-	//draw_healthbar(x-10,y+15, x+10, y+17, ce, c_black, c_blue, c_blue, 0, true, true)
+	draw_healthbar(x-7,y+23, x+12, y+25, ch, c_black, c_red, c_red, 0, true, false)
+	//draw_healthbar(x-10,y+13, x+10, y+15, cf, c_black, c_green, c_green, 0, true, false)
+	//draw_healthbar(x-10,y+15, x+10, y+17, ce, c_black, c_blue, c_blue, 0, true, false)
 }
 
 //if (instance_exists(sleep_target)) {
@@ -53,7 +53,7 @@ if (hp < hp_max) {
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_set_font(fnt_btn);
+draw_set_font(fnt_name);
 
 // Draw thoughts & mood modifiers
 if global.zoom_level < 1.1 {

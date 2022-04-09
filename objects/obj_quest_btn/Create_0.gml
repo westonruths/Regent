@@ -9,7 +9,7 @@ image_yscale = 2
 
 radiance_rotation = 0
 
-new_quest = true
+new_quest = false
 
 global.renown = 0
 global.renown_level = 1

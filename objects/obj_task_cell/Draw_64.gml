@@ -5,7 +5,7 @@ draw_self()
 var y_mod = 4
 if (script_get_name(job) != "Haul" && script_get_name(job) != "Patient") {
 	var ch = (skill_exp / skill_next_level) * 100;
-	draw_healthbar(x+30,y+15, x+90, y+24, ch, c_black, c_blue, c_blue, 0, true, true)
+	draw_healthbar(x+30,y+15, x+90, y+24, ch, c_black, c_blue, c_blue, 0, true, false)
 	draw_set_color(c_white);
 	draw_text(x + 30, y+12, "Level: " + string(skill_level));
 	y_mod = 0

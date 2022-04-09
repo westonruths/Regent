@@ -36,19 +36,19 @@ draw_set_halign(fa_right);
 
 draw_text(x + 52, y+88, "Health:");
 var ch = (pawn.hp / pawn.hp_max) * 100;
-draw_healthbar(x+55,y+90, x+140, y+100, ch, c_black, c_red, c_red, 0, true, true)
+draw_healthbar(x+55,y+90, x+140, y+100, ch, c_black, c_red, c_red, 0, true, false)
 
 draw_text(x + 52, y+103, "Food:");
 var cf = (pawn.char_food / pawn.char_food_max) * 100;
-draw_healthbar(x+55,y+105, x+140, y+115, cf, c_black, c_green, c_green, 0, true, true)
+draw_healthbar(x+55,y+105, x+140, y+115, cf, c_black, c_green, c_green, 0, true, false)
 
 draw_text(x + 52, y+118, "Energy:");
 var ce = (pawn.char_energy / pawn.char_energy_max) * 100;
-draw_healthbar(x+55,y+120, x+140, y+130, ce, c_black, make_color_rgb(255,215,0), make_color_rgb(255,215,0), 0, true, true)
+draw_healthbar(x+55,y+120, x+140, y+130, ce, c_black, make_color_rgb(255,215,0), make_color_rgb(255,215,0), 0, true, false)
 
 draw_text(x + 52, y+132, "Mood:");
 var cm = (pawn.mood.mood / pawn.mood.mood_max) * 100;
-draw_healthbar(x+55,y+135, x+140, y+145, cm, c_black, c_blue, c_blue, 0, true, true)
+draw_healthbar(x+55,y+135, x+140, y+145, cm, c_black, c_blue, c_blue, 0, true, false)
 
 draw_sprite_ext(indicator, image_index, x+55+(140-55)*(pawn.mood.mood_goal/pawn.mood.mood_max), y+137, 1, 1, image_angle, image_blend, image_alpha)
 var line_x = x+55+(140-55)*(20/pawn.mood.mood_max)

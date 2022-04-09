@@ -144,6 +144,8 @@ function Cook(){
 					_clear_previous_targets()
 				}
 			}
+		} else {
+			_clear_previous_targets()
 		}
 	}
 }

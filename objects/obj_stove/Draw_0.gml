@@ -9,7 +9,7 @@ if item_cooking != noone {
 	
 	var pc;
 	pc = (cooking_counter / max_counter) * 100;
-	draw_healthbar(x-sprite_width/2+5,y-1, x+sprite_width/2-5, y+1, pc, c_black, c_red, c_lime, 0, true, true)
+	draw_healthbar(x-sprite_width/2+5,y-1, x+sprite_width/2-5, y+1, pc, c_black, c_red, c_lime, 0, true, false)
 }
 
 

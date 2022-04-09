@@ -11,7 +11,7 @@ if (!global.menu_open) {
 	draw_self()
 	
 	var pc = (global.renown / global.renown_next_level) * 100;
-	draw_healthbar(x-140,y-10, x-25, y+10, pc, c_black, c_blue, c_blue, 0, true, true)
+	draw_healthbar(x-140,y-10, x-25, y+10, pc, c_black, c_blue, c_blue, 0, true, false)
 	
 	// Draw text
 	draw_set_halign(fa_left);

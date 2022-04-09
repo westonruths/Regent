@@ -19,5 +19,5 @@ if build_cost.done() {
 	var pc;
 	pc = ((build_cost.original_construction_health - build_cost.construction_health) 
 			/ build_cost.original_construction_health) * 100;
-	draw_healthbar(x-sprite_width/2+5,y-1, x+sprite_width/2-5, y+1, pc, c_black, c_red, c_lime, 0, true, true)
+	draw_healthbar(x-sprite_width/2+5,y-1, x+sprite_width/2-5, y+1, pc, c_black, c_red, c_lime, 0, true, false)
 }

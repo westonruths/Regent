@@ -8,7 +8,7 @@ if build_counter < max_build_counter {
 	var ch = (build_counter / max_build_counter) * 100;
 
 	if (build_counter > 0) {
-		draw_healthbar(x-10,y+7, x+10, y+10, ch, c_black, c_lime, c_lime, 0, true, true)
+		draw_healthbar(x-10,y+7, x+10, y+10, ch, c_black, c_lime, c_lime, 0, true, false)
 	}
 } else {
 	var _blend = c_white

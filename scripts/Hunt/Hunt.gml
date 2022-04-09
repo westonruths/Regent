@@ -16,10 +16,17 @@ function Hunt(){
 			sprite_index = spr_pawn_hunt
 			current_task = "Hunting"
 		} else if !melee && distance_to_object(hunt_target) < global.grid_resolution*6 {
+			targetX = x
+			targetY = y
+			
+			if (collision_line(x, y, hunt_target.x, hunt_target.y, obj_mtn_wall, false, true) || collision_line(x, y, hunt_target.x, hunt_target.y, obj_room_wall, false, true) || collision_line(x, y, hunt_target.x, hunt_target.y, obj_tree, false, true)) {
+				move_to_around_free_point(hunt_target.x + 32, hunt_target.y + 32)
+			}
+			
 			direction = point_direction(x, y, hunt_target.x, hunt_target.y)
 			sprite_index = spr_pawn_archery
 			current_task = "Hunting"
-		}else {
+		} else {
 			move_to_around_free_point(hunt_target.x, hunt_target.y)
 			sprite_index = spr_pawn_run
 			current_task = "On the hunt"

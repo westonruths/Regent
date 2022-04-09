@@ -44,20 +44,20 @@ var x_bar = 130
 
 var y_top = 5
 var y_btm = y_top+5
-draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, ch, c_black, c_red, c_red, 0, true, true)
+draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, ch, c_black, c_red, c_red, 0, true, false)
 //draw_text(x+x_bar, y + y_top, "H: ")
 
 var y_top = y_btm+4
 var y_btm = y_top+5
-draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, cf, c_black, c_green, c_green, 0, true, true)
+draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, cf, c_black, c_green, c_green, 0, true, false)
 //draw_text(x+x_bar, y + y_top, "F: ")
 
 var y_top = y_btm+4
 var y_btm = y_top+5
-draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, ce, c_black, make_color_rgb(255,215,0), make_color_rgb(255,215,0), 0, true, true)
+draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, ce, c_black, make_color_rgb(255,215,0), make_color_rgb(255,215,0), 0, true, false)
 //draw_text(x+x_bar, y + y_top, "E: ")
 
 var y_top = y_btm+4
 var y_btm = y_top+5
-draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, cm, c_black, c_blue, c_blue, 0, true, true)
+draw_healthbar(x+x_bar,y+y_top, global.view_width-25, y+y_btm, cm, c_black, c_blue, c_blue, 0, true, false)
 //draw_text(x+x_bar, y + y_top, "M: ")

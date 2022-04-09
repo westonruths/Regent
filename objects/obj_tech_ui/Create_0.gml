@@ -26,7 +26,7 @@ image_yscale = 2
 
 selected = false
 
-menux = 5
-menuy = 100
+menux = 35
+menuy = 55
 
 detail_width = 175

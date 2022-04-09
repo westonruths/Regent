@@ -29,6 +29,7 @@
     {"id":{"name":"selectbox_tr","path":"sprites/selectbox_tr/selectbox_tr.yy",},"order":4,},
     {"id":{"name":"curlyhair_sleep","path":"sprites/curlyhair_sleep/curlyhair_sleep.yy",},"order":1,},
     {"id":{"name":"spr_pawn_moody","path":"sprites/spr_pawn_moody/spr_pawn_moody.yy",},"order":21,},
+    {"id":{"name":"fnt_name","path":"fonts/fnt_name/fnt_name.yy",},"order":4,},
     {"id":{"name":"spr_hammering","path":"sprites/spr_hammering/spr_hammering.yy",},"order":7,},
     {"id":{"name":"obj_quest_complete","path":"objects/obj_quest_complete/obj_quest_complete.yy",},"order":3,},
     {"id":{"name":"bowlhair_hunt","path":"sprites/bowlhair_hunt/bowlhair_hunt.yy",},"order":0,},
