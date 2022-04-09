@@ -8,7 +8,7 @@ enum story {
 	reforest,
 }
 
-counter_hrs[story.save_settler] = 140 + irandom_range(-10,50)
+counter_hrs[story.save_settler] = 24 + irandom_range(0,50)
 counter_hrs[story.raid] = counter_hrs[story.save_settler] + irandom_range(72,120)
 counter_hrs[story.game_over] = 1
 counter_hrs[story.reforest] = 1

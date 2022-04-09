@@ -25,7 +25,10 @@ if !selected {
 
 	instance_create_layer(global.view_width-25,y+15,"Menu_Btns",obj_close_menu);
 	instance_create_layer(x+10,y+70,"Menu_Btns",obj_taskplace_btn);
-	instance_create_layer(x+150,y+70,"Menu_Btns",obj_taskcamera_btn);
+	with(instance_create_layer(x+75,y+75,"Menu_Btns",obj_draft_btn)) {
+		pawn = other.pawn
+	}
+	instance_create_layer(x+168,y+70,"Menu_Btns",obj_taskcamera_btn);
 }
 
 

@@ -27,5 +27,7 @@ if !pawn.drafted {
 	pawn.drafted = false
 }
 
+instance_destroy()
+with(obj_close_menu) { alarm[0] = 1 }
 
 

@@ -66,7 +66,7 @@ function Defend(){
 				targetX = x
 				targetY = y			
 				
-				if (collision_line(x, y, hunt_target.x, hunt_target.y, obj_mtn_wall, false, true) || collision_line(x, y, hunt_target.x, hunt_target.y, obj_room_wall, false, true) || collision_line(x, y, hunt_target.x, hunt_target.y, obj_tree, false, true)) {
+				if (collision_line(x, y, defend_target.x, defend_target.y, obj_mtn_wall, false, true) || collision_line(x, y, defend_target.x, defend_target.y, obj_room_wall, false, true) || collision_line(x, y, defend_target.x, defend_target.y, obj_tree, false, true)) {
 					move_to_around_free_point(defend_target.x + 32, defend_target.y + 32)
 				}
 				

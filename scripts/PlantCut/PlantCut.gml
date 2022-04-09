@@ -13,7 +13,7 @@ function PlantCut() {
 		if path_position > 0.85 && distance_to_object(fell_target) < global.grid_resolution {
 			direction = point_direction(x, y, fell_target.x, fell_target.y)
 			sprite_index = spr_pawn_chop
-			current_task = "Plant cutting"
+			current_task = "Cutting Plant"
 		} else {
 			move_to_around_free_point(fell_target.x, fell_target.y)
 			sprite_index = spr_pawn_run
