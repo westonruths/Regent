@@ -1,7 +1,7 @@
 {
   "option_ios_display_name": "Regent",
   "option_ios_bundle_name": "com.wruths.regent",
-  "option_ios_version": "1.0.0",
+  "option_ios_version": "1.0.3",
   "option_ios_output_dir": "~/regent",
   "option_ios_team_id": "QZ9P8UJ785",
   "option_ios_orientation_portrait": false,
