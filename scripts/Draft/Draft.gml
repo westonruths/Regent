@@ -37,5 +37,11 @@ function Draft(){
 		//if distance_to_object(obj_goblin) < global.grid_resolution*3 {
 		//	move_to_around_free_point(_enemy.x, _enemy.y)
 		//}
+	} else if drafted {
+		with (instance_create_layer(x, y, "Items", obj_target)) {
+			pawn = other.id
+			x = pawn.x
+			y = pawn.y
+		}
 	}
 }
