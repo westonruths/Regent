@@ -3,6 +3,10 @@
 
 text = ""
 
+if !instance_exists(selection) {
+	exit
+}
+
 switch selection.object_index {
 	case obj_tree:
 		if selection.selected == true { text = "Cancel Chop" }

@@ -16,3 +16,5 @@ alarm[1] = 1
 
 title = "Mountain"
 detail = "Can be mined for stone"
+
+image_blend = c_silver

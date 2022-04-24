@@ -44,7 +44,7 @@ for(var i=0;i<array_length(rooms);i++) {
 	} else {
 		draw_set_font(fnt_btn);
 	}
-	draw_text_outline(label_cell.x-global.grid_resolution/2, label_cell.y-global.grid_resolution/2, c_white, c_black, room_name)
+	draw_text_outline(label_cell.x-global.grid_resolution/2, label_cell.y+global.grid_resolution/4, c_white, c_black, room_name)
 }
 
 draw_set_alpha(1)
