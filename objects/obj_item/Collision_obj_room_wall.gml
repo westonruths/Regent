@@ -1,12 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-with (obj_pawn) {
-	if instance_exists(item_holding) {
-		if item_holding.id == other.id {
-			exit
-		}
-	}
+if stuck_counter < 1000 {
+	stuck_counter += 1
+	exit
 }
 
 var max_dist = 9999
@@ -21,3 +18,5 @@ with (obj_cell) {
 		
 x = cell.x
 y = cell.y
+
+stuck_counter = 0

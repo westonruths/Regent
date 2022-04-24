@@ -11,7 +11,7 @@ if (global.time_pause || global.saved_game_speed == 0) {
 if(global.time_pause){ exit; }
 
 //Increment Time
-time_increment = room_speed/20*global.game_speed;	//global.seconds per step
+time_increment = room_speed/10*global.game_speed;	//global.seconds per step
 global.seconds += time_increment;
 global.minutes = global.seconds/60;
 

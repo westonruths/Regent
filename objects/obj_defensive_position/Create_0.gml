@@ -8,3 +8,6 @@ title = "Defense Position"
 detail = "Settlers assigned to defense will go to this position during attacks"
 
 image_alpha = 0.5
+
+hp_max = 1;
+hp = hp_max;

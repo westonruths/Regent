@@ -13,7 +13,7 @@ if (skill_exp > skill_next_level) {
 	var level_up = instance_create_layer(global.view_width/4, global.view_height/4, "Menu_Prompts",obj_char_level_up_prompt);
 	with (level_up) {
 		level = other.skill_level
-		renown_reward = other.skill_level * 2
+		renown_reward = other.skill_level * 10
 		job = script_get_name(other.job)
 		pawn_name = other.pawn.name
 		pawn = other.pawn

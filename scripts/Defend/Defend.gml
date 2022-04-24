@@ -59,16 +59,16 @@ function Defend(){
 				targetX = x
 				targetY = y
 			} else if !melee && distance_to_object(defend_target) < global.grid_resolution*6 {
+				if (collision_line(x, y, defend_target.x, defend_target.y, obj_mtn_wall, false, true) || collision_line(x, y, defend_target.x, defend_target.y, obj_room_wall, false, true) || collision_line(x, y, defend_target.x, defend_target.y, obj_tree, false, true)) {
+					move_to_around_free_point(defend_target.x + 32, defend_target.y + 32)
+				}
+				
 				direction = point_direction(x, y, defend_target.x, defend_target.y)
 				sprite_index = spr_pawn_archery
 				current_task = "Shooting"
 				path_speed = 0
 				targetX = x
 				targetY = y			
-				
-				if (collision_line(x, y, defend_target.x, defend_target.y, obj_mtn_wall, false, true) || collision_line(x, y, defend_target.x, defend_target.y, obj_room_wall, false, true) || collision_line(x, y, defend_target.x, defend_target.y, obj_tree, false, true)) {
-					move_to_around_free_point(defend_target.x + 32, defend_target.y + 32)
-				}
 				
 			} else {
 				move_to_around_free_point(defend_target.x, defend_target.y)

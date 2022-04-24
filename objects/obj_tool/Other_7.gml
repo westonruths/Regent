@@ -104,7 +104,6 @@ switch(sprite_index){
 			with (instance_create_layer(x+lengthdir_x(2,direction),y+lengthdir_y(2,direction),"Instances",obj_arrow)) {
 				dmg = pawn_dmg;
 			
-			
 				direction = point_direction(x,y,_target.x,_target.y)
 				image_angle = point_direction(x,y,_target.x,_target.y)-90
 			

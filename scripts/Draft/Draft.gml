@@ -32,6 +32,7 @@ function Draft(){
 			sprite_index = spr_pawn_archery
 			current_task = "Shooting"
 		}
+		defend_target = _enemy
 		
 		//if distance_to_object(obj_goblin) < global.grid_resolution*3 {
 		//	move_to_around_free_point(_enemy.x, _enemy.y)

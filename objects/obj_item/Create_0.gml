@@ -9,3 +9,5 @@ hp_max = hp
 
 title = ""
 detail = ""
+
+stuck_counter = 0

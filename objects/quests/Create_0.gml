@@ -41,14 +41,14 @@ quest_array = [
 		"Build a room", //name of quest
 		-1, //status -1 inactive, 0 active
 		"Construct walls and a door", //description
-		75, //renown award
+		200, //renown award
 		spr_home, //icon for the quest
 	],
 	[
 		"Build beds", //name of quest
 		-1, //status -1 inactive, 0 active
 		"Enough for each settler", //description
-		75, //renown award
+		300, //renown award
 		spr_bed, //icon for the quest
 	],
 	[
@@ -62,14 +62,14 @@ quest_array = [
 		"Build a stove", //name of quest
 		-1, //status -1 inactive, 0 active
 		"This is where food is cooked", //description
-		75, //renown award
+		100, //renown award
 		spr_stove, //icon for the quest
 	],
 	[
 		"Collect 3 raw meat", //name of quest
 		-1, //status -1 inactive, 0 active
 		"Hunt animals to collect meat", //description
-		75, //renown award
+		100, //renown award
 		spr_bull, //icon for the quest
 	],
 	[
@@ -83,7 +83,7 @@ quest_array = [
 		"Harvest 10 wheat", //name of quest
 		-1, //status -1 inactive, 0 active
 		"Plant and grow wheat", //description
-		75, //renown award
+		500, //renown award
 		spr_wheat_icon, //icon for the quest
 	],
 	[
