@@ -90,6 +90,8 @@ targets[12] = haul_target
 targets_listsize = array_length(targets);
 current_target = targets_listsize-1
 
+skip_jobs = false
+
 // Idle target
 idle_counter = 0
 targetX = x + irandom_range(-50,50)

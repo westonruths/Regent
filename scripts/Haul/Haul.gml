@@ -10,6 +10,7 @@ function Haul(){
 		haul_target = noone
 		sprite_index = spr_pawn_carry
 		current_task = "Hauling " + item_holding.title 
+		skip_jobs = true
 		
 		//Find stockpile with the item we are holding
 		with(obj_stockpile) {
@@ -125,6 +126,7 @@ function Haul(){
 		}
 	} else if (instance_exists(haul_target)) {
 		current_task = "Hauling " + haul_target.title 
+		skip_jobs = true
 		// see if a construct needs the resource
 		with(obj_construction) {
 			var construct_chosen = false

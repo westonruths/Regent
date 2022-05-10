@@ -1,6 +1,8 @@
 /// @description Update path
 // You can write your code in this editor
 // Loop through and execute enabled tasks
+skip_jobs = false
+
 targets[0] = mood_target
 targets[1] = defend_target
 targets[2] = eat_target
@@ -14,32 +16,43 @@ targets[9] = grow_target
 targets[10] = mine_target
 targets[11] = fell_target
 targets[12] = haul_target
-current_target = targets_listsize-1
-Idle()
-var listSize = array_length(task_cells);
-for(var i = listSize - 1; i >= 1; i--) {
-	if (task_cells[i].enabled) {
-		script_execute(task_cells[i].job)
-	}
-	current_target--
-}
-// Sleep and then eat next
-Sleep()
-current_target--
-Eat()
-current_target--
+current_target = 0
+
+Draft()
+current_target++
+
+// Mood actions
+Mood()
+current_target++
+
 // Do defend last since it is highest priority
 if (task_cells[0].enabled) {
 	script_execute(task_cells[0].job)
 } else {
 	Hide()	
 }
-current_target--
-// Mood actions
-Mood()
-current_target--
+current_target++
 
-Draft()
+Eat()
+current_target++
+
+// Sleep and then eat next
+Sleep()
+current_target++
+
+var listSize = array_length(task_cells);
+for(var i = 0; i < listSize; i++) {
+	if (task_cells[i].enabled) {
+		script_execute(task_cells[i].job)
+	}
+	current_target++
+	
+	if skip_jobs break
+}
+
+if !skip_jobs {
+	Idle()
+}
 
 //move towards point
 if (old_targetX != targetX || old_targetY != targetY) {
