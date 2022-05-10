@@ -196,7 +196,7 @@ buffer_delete( _buffer)
 //print("Game saved! ", _string)
 #endregion
 
-#region Save targets
+#region Save story
 //make save array
 var _saveData = array_create(0)
 
@@ -224,7 +224,7 @@ buffer_delete( _buffer)
 //print("Game saved! ", _string)
 #endregion
 
-#region Save story
+#region Save targets
 //make save array
 var _saveData = array_create(0)
 

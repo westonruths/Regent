@@ -187,15 +187,13 @@ if (file_exists("story.save")) {
 	
 	var _loadData = json_parse( _string)
 	
-	while (array_length(_loadData) > 0) {
-		var _loadEntity = array_pop(_loadData)
+	var _loadEntity = array_pop(_loadData)
 		
-		with (instance_create_layer(_loadEntity.x, _loadEntity.y, _loadEntity.layer, obj_storyteller)) {
-
-			counter_hrs = _loadEntity.counter_hrs
+	with (instance_create_layer(_loadEntity.x, _loadEntity.y, _loadEntity.layer, obj_storyteller)) {
+		counter_hrs = _loadEntity.counter_hrs
 		
-		}
 	}
+	
 	print("Loaded story! ", _string)
 }
 #endregion
