@@ -1,16 +1,18 @@
-var max_dist = 9999
-var cell = noone
-with (obj_cell) {
-	var dist = distance_to_point(other.x, other.y)
-	if  dist < max_dist && !instance_exists(build_obj) {
-		max_dist = dist
-		cell = id
-	}
-}
+//var max_dist = 9999
+//var cell = noone
+//with (obj_cell) {
+//	var dist = distance_to_point(other.x, other.y)
+//	if  dist < max_dist && !instance_exists(build_obj) {
+//		max_dist = dist
+//		cell = id
+//	}
+//}
 		
-x = cell.x
-y = cell.y
+//x = cell.x
+//y = cell.y
 
+
+/////// OLD CODE
 //move_to_random_point()
 //if !mp_grid_path(global.grid, path, x, y, targetX, targetY, true) {
 //	x += sprite_width

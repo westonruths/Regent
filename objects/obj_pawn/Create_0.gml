@@ -17,10 +17,9 @@ current_task = ""
 crowned = false
 drafted = false
 
-work_spd = 1
 spd = 1;
 path = path_add();
-test_path = path_add();
+
 
 // Randomly select name
 var gender = irandom(1)

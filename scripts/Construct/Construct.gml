@@ -4,7 +4,6 @@ function Construct(){
 	if (instance_exists(construct_target)) {
 		_clear_previous_targets()
 			
-		move_to_around_free_point(construct_target.x, construct_target.y)
 		if path_position > 0.85 {
 			direction = point_direction(x, y, construct_target.x, construct_target.y)
 			sprite_index = spr_pawn_hammering
@@ -16,7 +15,7 @@ function Construct(){
 		} else {
 			sprite_index = spr_pawn_run
 			move_to_around_free_point(construct_target.x, construct_target.y)
-			current_task = "Constructing"
+			current_task = "Heading to \n construct"
 		}
 		
 		if instance_exists(construct_target) {

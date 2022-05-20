@@ -1,5 +1,6 @@
 // Logic to cut down trees
 function Idle() {
+	_clear_previous_targets()
 	idle_counter -= 1
 	
 	if idle_counter <= 0 {
@@ -26,17 +27,18 @@ function Idle() {
 	//	targetY = irandom_range(y-100, y+100)
 	//}
 	
-	if (sprite_index == spr_pawn_run || sprite_index == spr_pawn_carry) {
+	sprite_index = spr_pawn_walk
+	current_task = "Idle"
 	
-	} else {
-		sprite_index = spr_pawn_walk
-		current_task = "Idle"
-	}
+	//if (sprite_index == spr_pawn_run || sprite_index == spr_pawn_carry) {
 	
-	if current_target == targets_listsize-1 {
-		sprite_index = spr_pawn_walk
-		current_task = "Idle"
-	}
+	//} else {
+	//	sprite_index = spr_pawn_walk
+	//	current_task = "Idle"
+	//}
 	
-	
+	//if current_target == targets_listsize-1 {
+	//	sprite_index = spr_pawn_walk
+	//	current_task = "Idle"
+	//}
 }

@@ -7,7 +7,7 @@ if instance_exists(obj_storyteller_prompt) exit
 counter_hrs[story.raid] -= 1
 
 if (counter_hrs[story.raid] <= 0) {
-	num_goblins = 1 + irandom_range(global.day/4, global.day)
+	num_goblins = 1 + irandom_range(1, global.day/10 + 1)
 
 	if instance_number(obj_pawn) < 7 {
 		counter_hrs[story.raid] = 72 + irandom_range(12,72)

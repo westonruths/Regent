@@ -59,7 +59,7 @@ function Cook(){
 						max_dist = dist
 						targetX = other.x
 						targetY = other.y
-						//_clear_previous_targets()
+						_clear_previous_targets()
 					}
 				
 					// Go to food and pick it up
@@ -101,7 +101,7 @@ function Cook(){
 					cooking_target = other.id
 					max_dist_stove = dist
 					move_to_around_free_point(other.x, other.y)
-					//_clear_previous_targets()
+					_clear_previous_targets()
 				}
 			
 				if instance_exists(cooking_target) {

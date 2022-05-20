@@ -7,10 +7,10 @@ function Haul(){
 	
 	// main logic depending on item holding
 	if (instance_exists(item_holding)){
+		_clear_previous_targets()
 		haul_target = noone
 		sprite_index = spr_pawn_carry
 		current_task = "Hauling " + item_holding.title 
-		skip_jobs = true
 		
 		//Find stockpile with the item we are holding
 		with(obj_stockpile) {
@@ -57,6 +57,8 @@ function Haul(){
 			} else {
 				draw_ellipse_colour(x-5, y-5, x+5, y+5, c_red, c_red, true);	
 			}
+			
+			if instance_exists(main_pawn.target_construct) { break; }
 		}
 		
 		var _grave = noone
@@ -125,8 +127,9 @@ function Haul(){
 			weapon = other.active_wpn_index
 		}
 	} else if (instance_exists(haul_target)) {
+		_clear_previous_targets()
 		current_task = "Hauling " + haul_target.title 
-		skip_jobs = true
+		sprite_index = spr_pawn_walk
 		// see if a construct needs the resource
 		with(obj_construction) {
 			var construct_chosen = false
@@ -311,6 +314,7 @@ function Haul(){
 				other.haul_target = id
 			}
 		}
+		skip_jobs = false
 	}
 	
 	//target_construct = construct
